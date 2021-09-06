@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~font-awesome/css/font-awesome.css";
+@import "root.css";
+
+body {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--vt-primary)
+}
+
+h1 {
+    color: var(--vt-primary)
+}
+
+h2 {
+    color: var(--vt-primary-dark)
+}
